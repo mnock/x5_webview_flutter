@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:id="@+id/tvGunTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textColor="#ff333333"
+        android:textSize="18sp"
+        android:visibility="visible" />
+  <!--  <androidx.appcompat.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/title_tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="#ffffffff"
+        app:contentInsetStartWithNavigation="0dp"
+        app:navigationContentDescription="返回"
+        app:navigationIcon="@drawable/icon_back"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+
+
+    </androidx.appcompat.widget.Toolbar>-->
+
+    <RelativeLayout
+        android:id="@+id/rl_web_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </RelativeLayout>
+
+</LinearLayout>

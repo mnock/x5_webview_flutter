@@ -152,7 +152,7 @@ class _HomePageState extends State<HomePage> {
                           return DemoWebViewPage(url);
                         }));
                       },
-                      defaultText: "http://bin.amazeui.org/tizayo");
+                      defaultText: "http://xxl.qiantengcn.com/AscendTheCloudC/?account:aaaaaqqqqqqq");
                 },
                 child: Text("flutter内嵌x5webview")),
             RaisedButton(
