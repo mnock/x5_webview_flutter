@@ -19,6 +19,7 @@
 
     <application>
         <activity android:name=".X5WebViewActivity"
+            android:theme="@style/MyAppTheme"
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:exported="false"
             android:launchMode="singleTask"
@@ -43,7 +44,7 @@
         </service>
         <provider
             android:name="com.tencent.smtt.utils.FileProvider"
-            android:authorities="${applicationId}"
+            android:authorities="${FILE_PROVIDER_AUTHORITIES}"
             android:exported="false"
             android:grantUriPermissions="true">
             <meta-data
